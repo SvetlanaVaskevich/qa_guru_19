@@ -75,7 +75,7 @@ public class BookStoreTest {
                 .body("result",is("User authorized successfully."));
     }
 
-    @DisplayName("Генерация токена с AllureListener")
+    @DisplayName("Генерация токена с AllureRestAssured")
     @Test
     void generateTokenWithAllureListenerTest(){
         String data = "{ \"userName\": \"SvetlanaV\", \"password\": \"Qwe1234!\" }";
