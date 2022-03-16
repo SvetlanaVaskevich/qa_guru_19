@@ -115,6 +115,6 @@ public class BookStoreTest {
                 .statusCode(200)
                 .body(matchesJsonSchemaInClasspath("shemas/generateToken_response_shema.json"))
                 .body("status",is("Success"))
-                .body("result",is("User authorized successfully."));*/
-    }
+                .body("result",is("User authorized successfully."));
+    }*/
 }
